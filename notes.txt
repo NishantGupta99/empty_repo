@@ -1,6 +1,0 @@
-1. to install type script go to gitbash and write npm i -g typescript 
-2. every type script will have .ts extention 
-3. a ts file cannot be run on a browser like a js file so everytime we create a ts file we need to transpile the same to do that  use gitbash and write tsc followed by the file name this will create a js file for the same. 
-4. create a tsconfig.json folder in which we will tell the complier hwre the ts files will be stored and where the transpiled files should be stored 
-5. create two folders srs for all the files with ts extention and dist for all the transpiled js files. 
-
