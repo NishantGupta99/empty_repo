@@ -5,4 +5,5 @@ Name = "Pratirath"; // now if we try to reassign the value of firstName as a num
 var fullName = function (name, surname) {
     return name + "  " + surname;
 }; // in a function when we give parameters we have to specify the data type of the parameters aswell to make sure our functions are used in the way they were supposed to be used 
-console.log(fullName(34, "nishant")); // right now we have not given any data type to our parameter so we can enter a number or any value maybe a boolean or array etc. 
+console.log(fullName("nishant", "gupta")); // right now we have not given any data type to our parameter so we can enter a number or any value maybe a boolean or array etc. once we set the data type as string we will se its not accepting the 34 because its a number 
+// NOW IF WE WANT THAT THE RETURN OF OUR FUNCTION SHOULD EXPLICITLY BE OF PARTICULAR DATA TYPE WE CAN SET THAT UP BY :DATATYPE AFTER THE PARAMETERS OF THE FUNCTION 

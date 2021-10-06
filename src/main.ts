@@ -3,11 +3,13 @@ hello = "Bangalore" ; // and if we try to reasign the value it will give us an e
 let Name :string = " nishant"; // in order to set name as a stirng we will use : after the variable or constant name 
 Name = "Pratirath"; // now if we try to reassign the value of firstName as a number or boolean value it will give us error here itself but we can always save it to a string 
 
-const fullName =(name  , surname) => {
+const fullName =(name: string, surname: string): string => {
     return name + "  " + surname;
 } // in a function when we give parameters we have to specify the data type of the parameters aswell to make sure our functions are used in the way they were supposed to be used 
 
-console.log(fullName(34,"nishant")); // right now we have not given any data type to our parameter so we can enter a number or any value maybe a boolean or array etc. 
+console.log(fullName("nishant","gupta")); // right now we have not given any data type to our parameter so we can enter a number or any value maybe a boolean or array etc. once we set the data type as string we will se its not accepting the 34 because its a number 
+
+// NOW IF WE WANT THAT THE RETURN OF OUR FUNCTION SHOULD EXPLICITLY BE OF PARTICULAR DATA TYPE WE CAN SET THAT UP BY :DATATYPE AFTER THE PARAMETERS OF THE FUNCTION 
 
 
 
