@@ -1,0 +1,3 @@
+1. to install type script go to gitbash and write npm i -g typescript 
+2. every type script will have .ts extention 
+3. a ts file cannot be run on a browser like a js file so everytime we create a ts file we need to transpile the same to do that  use gitbash and write tsc followed by the file name this will create a js file for the same. 
